@@ -9,9 +9,9 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-	String nome;
-	printf("Enter your name:");
-	scanf("%s", &nome);
-	printf("Hello, World!\n");
+	int number;
+	printf("Enter your number:");
+	scanf("%d", &number);
+	printf("Hello, World!, the number you just entered is %d\n", number);
     return 0;
 }
