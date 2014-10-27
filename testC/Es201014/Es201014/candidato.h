@@ -12,14 +12,14 @@
 #include <stdio.h>
 #include "stringhe.h"
 
-typedef struct {
+typedef struct { // definisce la struttura candidato
 	string cod, nome, cognome;
 } candidato;
-typedef struct elem {
+typedef struct elem { // definisce il nodo lista
 	candidato info;
 	struct elem* next;
 } node;
-typedef node* candidati;
-void addCandidato(candidati*, string, string);
+typedef node* candidati; // definisce il puntatore alla lista (per i metodi void)
+void addCandidato(candidati*, string, string); // aggiunge un candidato all'insieme
 
 #endif /* defined(__Es201014__candidato__) */

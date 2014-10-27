@@ -19,10 +19,22 @@ int lung(string a) {
 int confronta(string a, string b) {
 	int i, j;
 	int temp = 1;
-	while(!temp) {
-		if(a[i] = b[j]){
+	if(lung(a) == lung(b)) {
+		while(!temp) {
+			if(a[i] != b[j]){
+				temp = 0;
+			}
 			i++;
 			j++;
-		} else temp = 0;
+		}
 	}
+	return temp;
+}
+void copia(string a, string b) { // copia  b in a
+	int i = 0;
+	while(b[i] != '\0') {
+		a[i] = b[i];
+		i++;
+	}
+	a[i] = '\0';
 }

@@ -9,9 +9,9 @@
 #ifndef Es201014_stringhe_h
 #define Es201014_stringhe_h
 
-typedef char string[15];
-int lung(string);
-int copia(string, string);
-int confronta(string, string);
+typedef char string[15]; //definisce una stringa come array di caratteri
+int lung(string); // lunghezza di una stringa
+void copia(string, string); // copia la seconda stringa nella prima
+int confronta(string, string); // confronta le stringe e restituisce 1 se le stringe sono uguali, 0 se non lo sono
 
 #endif

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A86B6A7B19FE7E2B00EC3F9E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A86B6A7A19FE7E2B00EC3F9E /* main.c */; };
-		A86B6A8919FE7F4E00EC3F9E /* ElezioniAmericane.c in Sources */ = {isa = PBXBuildFile; fileRef = A86B6A8719FE7F4E00EC3F9E /* ElezioniAmericane.c */; };
 		A87ED23819FE9336000B6516 /* candidato.c in Sources */ = {isa = PBXBuildFile; fileRef = A87ED23619FE9336000B6516 /* candidato.c */; };
 		A87ED23B19FE9342000B6516 /* voto.c in Sources */ = {isa = PBXBuildFile; fileRef = A87ED23919FE9342000B6516 /* voto.c */; };
 		A8AFFE2319FEB97200F97A2A /* stringhe.c in Sources */ = {isa = PBXBuildFile; fileRef = A8AFFE2219FEB97200F97A2A /* stringhe.c */; };
@@ -29,8 +28,6 @@
 /* Begin PBXFileReference section */
 		A86B6A7719FE7E2B00EC3F9E /* Es201014 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Es201014; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86B6A7A19FE7E2B00EC3F9E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		A86B6A8719FE7F4E00EC3F9E /* ElezioniAmericane.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ElezioniAmericane.c; sourceTree = "<group>"; };
-		A86B6A8819FE7F4E00EC3F9E /* ElezioniAmericane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElezioniAmericane.h; sourceTree = "<group>"; };
 		A87ED23619FE9336000B6516 /* candidato.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = candidato.c; sourceTree = "<group>"; };
 		A87ED23719FE9336000B6516 /* candidato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = candidato.h; sourceTree = "<group>"; };
 		A87ED23919FE9342000B6516 /* voto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = voto.c; sourceTree = "<group>"; };
@@ -69,15 +66,13 @@
 		A86B6A7919FE7E2B00EC3F9E /* Es201014 */ = {
 			isa = PBXGroup;
 			children = (
-				A86B6A7A19FE7E2B00EC3F9E /* main.c */,
-				A87ED23619FE9336000B6516 /* candidato.c */,
 				A8AFFE2119FE9D2600F97A2A /* stringhe.h */,
-				A8AFFE2219FEB97200F97A2A /* stringhe.c */,
 				A87ED23719FE9336000B6516 /* candidato.h */,
-				A86B6A8719FE7F4E00EC3F9E /* ElezioniAmericane.c */,
-				A86B6A8819FE7F4E00EC3F9E /* ElezioniAmericane.h */,
-				A87ED23919FE9342000B6516 /* voto.c */,
 				A87ED23A19FE9342000B6516 /* voto.h */,
+				A8AFFE2219FEB97200F97A2A /* stringhe.c */,
+				A87ED23619FE9336000B6516 /* candidato.c */,
+				A87ED23919FE9342000B6516 /* voto.c */,
+				A86B6A7A19FE7E2B00EC3F9E /* main.c */,
 			);
 			path = Es201014;
 			sourceTree = "<group>";
@@ -138,7 +133,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A86B6A8919FE7F4E00EC3F9E /* ElezioniAmericane.c in Sources */,
 				A86B6A7B19FE7E2B00EC3F9E /* main.c in Sources */,
 				A87ED23819FE9336000B6516 /* candidato.c in Sources */,
 				A8AFFE2319FEB97200F97A2A /* stringhe.c in Sources */,
