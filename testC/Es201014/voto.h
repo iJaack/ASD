@@ -20,7 +20,7 @@ typedef struct { // definisce la struttura collegata 'voto'
 } voto;
 typedef struct elem2 { // definisce il nodo lista 'voto'
 	voto info;
-	struct elem2* next;
+	struct elem2 *next;
 } vnode;
 typedef vnode* voti; // definisc l'appoggio puntatore per la lista, per i metoti void
 void addVoto(voti*, string, string, string); //aggiunge un voto all'insieme
