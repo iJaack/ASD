@@ -9,6 +9,9 @@
 #ifndef Es201014_stringhe_h
 #define Es201014_stringhe_h
 
-
+typedef char string[15];
+int lung(string);
+int copia(string, string);
+int confronta(string, string);
 
 #endif

@@ -10,8 +10,16 @@
 #define __Es201014__candidato__
 
 #include <stdio.h>
+#include "stringhe.h"
 
-struct addCandidato();
-int check_notvalid();
+typedef struct {
+	string cod, nome, cognome;
+} candidato;
+typedef struct elem {
+	candidato info;
+	struct elem* next;
+} node;
+typedef node* candidati;
+void addCandidato(candidati*, string, string);
 
 #endif /* defined(__Es201014__candidato__) */

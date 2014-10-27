@@ -11,10 +11,7 @@
 
 int main(int argc, const char * argv[]) {
 	printf("---TEST---\n");
-	candidato one;
-	strcopy(one.cod,"abc");
-	
-	("abc", "Barack", "Obama");
+	candidato one = ("abc", "Barack", "Obama");
 	candidato two = ("123", "Mitt", "Romney");
 	votazione uno = ("abc", "Roberto", "De Virgilio");
 	votazione due = ("abc", "Andrea", "Rossi");

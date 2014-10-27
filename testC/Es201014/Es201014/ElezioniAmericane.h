@@ -11,6 +11,4 @@
 
 #include <stdio.h>
 
-typedef char string[15];
-
 #endif /* defined(__Es201014__ElezioniAmericane__) */

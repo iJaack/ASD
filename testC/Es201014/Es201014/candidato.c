@@ -8,12 +8,3 @@
 
 #include "candidato.h"
 
-typedef struct {
-	string codice nome, cognome;
-} candidato;
-struct addCandidato() { // aggiunge un candidato alla lista
-	
-}
-int check_notvalid() {
-	
-}

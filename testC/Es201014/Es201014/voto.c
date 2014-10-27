@@ -8,10 +8,6 @@
 
 #include "voto.h"
 
-typedef struct {
-	string vcod, vnome, vcognome;
-} votazione;
-
 struct addVotazione() { // aggiunge una votazione alla lista
 	
 }
