@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A86B6A7B19FE7E2B00EC3F9E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A86B6A7A19FE7E2B00EC3F9E /* main.c */; };
 		A86B6A8919FE7F4E00EC3F9E /* ElezioniAmericane.c in Sources */ = {isa = PBXBuildFile; fileRef = A86B6A8719FE7F4E00EC3F9E /* ElezioniAmericane.c */; };
+		A87ED23819FE9336000B6516 /* candidato.c in Sources */ = {isa = PBXBuildFile; fileRef = A87ED23619FE9336000B6516 /* candidato.c */; };
+		A87ED23B19FE9342000B6516 /* votazione.c in Sources */ = {isa = PBXBuildFile; fileRef = A87ED23919FE9342000B6516 /* votazione.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		A86B6A7A19FE7E2B00EC3F9E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A86B6A8719FE7F4E00EC3F9E /* ElezioniAmericane.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ElezioniAmericane.c; sourceTree = "<group>"; };
 		A86B6A8819FE7F4E00EC3F9E /* ElezioniAmericane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElezioniAmericane.h; sourceTree = "<group>"; };
+		A87ED23619FE9336000B6516 /* candidato.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = candidato.c; sourceTree = "<group>"; };
+		A87ED23719FE9336000B6516 /* candidato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = candidato.h; sourceTree = "<group>"; };
+		A87ED23919FE9342000B6516 /* votazione.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = votazione.c; sourceTree = "<group>"; };
+		A87ED23A19FE9342000B6516 /* votazione.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = votazione.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				A86B6A7A19FE7E2B00EC3F9E /* main.c */,
+				A87ED23619FE9336000B6516 /* candidato.c */,
+				A87ED23719FE9336000B6516 /* candidato.h */,
 				A86B6A8719FE7F4E00EC3F9E /* ElezioniAmericane.c */,
 				A86B6A8819FE7F4E00EC3F9E /* ElezioniAmericane.h */,
+				A87ED23919FE9342000B6516 /* votazione.c */,
+				A87ED23A19FE9342000B6516 /* votazione.h */,
 			);
 			path = Es201014;
 			sourceTree = "<group>";
@@ -125,6 +135,8 @@
 			files = (
 				A86B6A8919FE7F4E00EC3F9E /* ElezioniAmericane.c in Sources */,
 				A86B6A7B19FE7E2B00EC3F9E /* main.c in Sources */,
+				A87ED23819FE9336000B6516 /* candidato.c in Sources */,
+				A87ED23B19FE9342000B6516 /* votazione.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +250,7 @@
 				A86B6A8019FE7E2B00EC3F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

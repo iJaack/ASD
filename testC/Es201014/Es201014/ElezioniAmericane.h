@@ -12,5 +12,11 @@
 #include <stdio.h>
 
 typedef char string[15];
+typedef struct {
+	string cod, nome, cognome;
+} candidato;
+typedef struct {
+	string ver_cod, nome_vot, cognome_vot;
+} votazione;
 
 #endif /* defined(__Es201014__ElezioniAmericane__) */

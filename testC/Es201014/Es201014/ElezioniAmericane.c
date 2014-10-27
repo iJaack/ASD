@@ -7,28 +7,3 @@
 //
 
 #include "ElezioniAmericane.h"
-
-struct candidato {
-	string cod, nome, cognome;
-};
-struct votazione {
-	string ver_cod, nome_vot, cognome_vot;
-};
-struct addCandidato() { // aggiunge un candidato alla lista
-	
-}
-struct addVotazione() { // aggiunge una votazione alla lista
-	
-}
-int numVoti() { //
-	
-}
-int check_notvalid() {
-	
-}
-int get_voti() {
-	
-}
-struct remove_notvalid() {
-	
-}

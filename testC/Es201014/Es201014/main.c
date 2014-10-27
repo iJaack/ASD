@@ -7,14 +7,18 @@
 //
 
 #include <stdio.h>
+#include "ElezioniAmericane.c"
 
 int main(int argc, const char * argv[]) {
 	printf("---TEST---\n");
-	struct candidato one = ("abc", "Barack", "Obama");
-	struct candidato two = ("123", "Mitt", "Romney");
-	struct votazione uno = ("abc", "Roberto", "De Virgilio");
-	struct votazione due = ("abc", "Andrea", "Rossi");
-	struct votazione tre = ("123", "Mario", "Verdi");
-	struct votazione quattro = ("aaa", "Mario", "Neri");
+	candidato one;
+	strcopy(one.cod,"abc");
+	
+	("abc", "Barack", "Obama");
+	candidato two = ("123", "Mitt", "Romney");
+	votazione uno = ("abc", "Roberto", "De Virgilio");
+	votazione due = ("abc", "Andrea", "Rossi");
+	votazione tre = ("123", "Mario", "Verdi");
+	votazione quattro = ("aaa", "Mario", "Neri");
     return 0;
 }
