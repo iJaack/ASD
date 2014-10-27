@@ -7,15 +7,18 @@
 //
 
 #include <stdio.h>
-#include "ElezioniAmericane.c"
+#include "candidato.h"
+#include "voto.h"
 
 int main(int argc, const char * argv[]) {
-	printf("---TEST---\n");
+	printf("------TEST-------\n");
 	candidato one = ("abc", "Barack", "Obama");
 	candidato two = ("123", "Mitt", "Romney");
-	votazione uno = ("abc", "Roberto", "De Virgilio");
-	votazione due = ("abc", "Andrea", "Rossi");
-	votazione tre = ("123", "Mario", "Verdi");
-	votazione quattro = ("aaa", "Mario", "Neri");
+	voto uno = ("abc", "Roberto", "De Virgilio");
+	voto due = ("abc", "Andrea", "Rossi");
+	voto tre = ("123", "Mario", "Verdi");
+	voto quattro = ("aaa", "Mario", "Neri");
+	printf("---END-OF-TEST---");
     return 0;
 }
+//end main

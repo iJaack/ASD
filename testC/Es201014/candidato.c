@@ -1,14 +1,16 @@
 //
-//  Candidato.c
-//  testC
+//  candidato.c
+//  Es201014
 //
 //  Created by Giacomo Barbieri on 27/10/14.
-//  Copyright (c) 2014 Giacomo Barbieri. All rights reserved.
+//  Copyright (c) 2014 Tweaknology. All rights reserved.
 //
 
-#include "Candidato.h"
+#include "candidato.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-int main() {
-	printf("hello world");
-	return 0;
+void addCandidato(candidati* lista, string codice, string nome, string cognome) {
+	
 }
+//end

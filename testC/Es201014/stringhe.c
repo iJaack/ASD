@@ -38,3 +38,4 @@ void copia(string a, string b) { // copia  b in a
 	}
 	a[i] = '\0';
 }
+//end

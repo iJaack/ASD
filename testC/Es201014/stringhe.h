@@ -14,4 +14,4 @@ int lung(string); // lunghezza di una stringa
 void copia(string, string); // copia la seconda stringa nella prima
 int confronta(string, string); // confronta le stringe e restituisce 1 se le stringe sono uguali, 0 se non lo sono
 
-#endif
+#endif /* defined(__Es201014__stringhe_h__) */
