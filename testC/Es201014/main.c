@@ -12,13 +12,15 @@
 
 int main(int argc, const char * argv[]) {
 	printf("------TEST-------\n");
-	candidato one = ("abc", "Barack", "Obama");
-	candidato two = ("123", "Mitt", "Romney");
-	voto uno = ("abc", "Roberto", "De Virgilio");
-	voto due = ("abc", "Andrea", "Rossi");
-	voto tre = ("123", "Mario", "Verdi");
-	voto quattro = ("aaa", "Mario", "Neri");
-	printf("---END-OF-TEST---");
+	candidati* lista_c = NULL;
+	voti* lista_v = NULL;
+	addcandidato(lista_c, "abc", "Barack", "Obama");
+	addcandidato(lista_c, "123", "Mitt", "Romney");
+	addvoto(lista_v, "abc", "Roberto", "De Virgilio");
+	addvoto(lista_v,"abc", "Andrea", "Rossi");
+	addvoto(lista_v,"123", "Mario", "Verdi");
+	addvoto(lista_v, "aaa", "Mario", "Neri");
+	printf("----END-OF-TEST----\n");
     return 0;
 }
 //end main

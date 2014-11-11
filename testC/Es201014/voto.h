@@ -23,7 +23,7 @@ typedef struct elem2 { // definisce il nodo lista 'voto'
 	struct elem2* next;
 } vnode;
 typedef vnode* voti; // definisc l'appoggio puntatore per la lista, per i metoti void
-void addVoto(voti*, string, string, string); //aggiunge un voto all'insieme
+void addvoto(voti*, string, string, string); //aggiunge un voto all'insieme
 int numVoti(voti); // controlla il numero di voti
 int nonValidi(voti, candidati); //controlla i voti non validi
 int votiCandidato(voti, candidati, string, string); // restituisce i voti del candidato in input

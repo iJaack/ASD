@@ -7,18 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A85881B219F2C4EF00EC9D0E /* main_calcolatrice.c in Sources */ = {isa = PBXBuildFile; fileRef = A85881B119F2C4EF00EC9D0E /* main_calcolatrice.c */; };
+		A80C9ADE1A125D6200AD9948 /* valore_massimo.c in Sources */ = {isa = PBXBuildFile; fileRef = A80C9ADD1A125D6200AD9948 /* valore_massimo.c */; };
+		A8B6B66A1A0D1BCB00321D41 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A8B6B6691A0D1BCB00321D41 /* main.c */; };
+		A8B6B66D1A0D1D2B00321D41 /* stringhe.c in Sources */ = {isa = PBXBuildFile; fileRef = A8B6B66B1A0D1D2B00321D41 /* stringhe.c */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A86B6A8519FE7E2B00EC3F9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A86B6A8119FE7E2B00EC3F9E /* Es201014.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A86B6A7719FE7E2B00EC3F9E;
-			remoteInfo = Es201014;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A85881AC19F2C4EF00EC9D0E /* CopyFiles */ = {
@@ -33,9 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A80C9ADD1A125D6200AD9948 /* valore_massimo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = valore_massimo.c; path = "../../../Dropbox/Università/Algoritmi e strutture dati/Devopment/Homework #1/valore_massimo.c"; sourceTree = "<group>"; };
+		A80C9ADF1A12667B00AD9948 /* valore_massimo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = valore_massimo.h; path = "../../../Dropbox/Università/Algoritmi e strutture dati/Devopment/Homework #1/valore_massimo.h"; sourceTree = "<group>"; };
 		A85881AE19F2C4EF00EC9D0E /* testC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testC; sourceTree = BUILT_PRODUCTS_DIR; };
-		A85881B119F2C4EF00EC9D0E /* main_calcolatrice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main_calcolatrice.c; sourceTree = "<group>"; };
-		A86B6A8119FE7E2B00EC3F9E /* Es201014.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Es201014.xcodeproj; path = Es201014/Es201014.xcodeproj; sourceTree = "<group>"; };
+		A8B6B6691A0D1BCB00321D41 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A8B6B66B1A0D1D2B00321D41 /* stringhe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stringhe.c; sourceTree = "<group>"; };
+		A8B6B66C1A0D1D2B00321D41 /* stringhe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringhe.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,18 +63,13 @@
 		A85881B019F2C4EF00EC9D0E /* testC */ = {
 			isa = PBXGroup;
 			children = (
-				A85881B119F2C4EF00EC9D0E /* main_calcolatrice.c */,
-				A86B6A8119FE7E2B00EC3F9E /* Es201014.xcodeproj */,
+				A8B6B6691A0D1BCB00321D41 /* main.c */,
+				A8B6B66B1A0D1D2B00321D41 /* stringhe.c */,
+				A8B6B66C1A0D1D2B00321D41 /* stringhe.h */,
+				A80C9ADD1A125D6200AD9948 /* valore_massimo.c */,
+				A80C9ADF1A12667B00AD9948 /* valore_massimo.h */,
 			);
 			path = testC;
-			sourceTree = "<group>";
-		};
-		A86B6A8219FE7E2B00EC3F9E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A86B6A8619FE7E2B00EC3F9E /* Es201014 */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,12 +116,6 @@
 			mainGroup = A85881A519F2C4EF00EC9D0E;
 			productRefGroup = A85881AF19F2C4EF00EC9D0E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A86B6A8219FE7E2B00EC3F9E /* Products */;
-					ProjectRef = A86B6A8119FE7E2B00EC3F9E /* Es201014.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A85881AD19F2C4EF00EC9D0E /* testC */,
@@ -139,22 +123,14 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		A86B6A8619FE7E2B00EC3F9E /* Es201014 */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = Es201014;
-			remoteRef = A86B6A8519FE7E2B00EC3F9E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
 		A85881AA19F2C4EF00EC9D0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A85881B219F2C4EF00EC9D0E /* main_calcolatrice.c in Sources */,
+				A8B6B66A1A0D1BCB00321D41 /* main.c in Sources */,
+				A8B6B66D1A0D1D2B00321D41 /* stringhe.c in Sources */,
+				A80C9ADE1A125D6200AD9948 /* valore_massimo.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

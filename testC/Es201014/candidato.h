@@ -20,6 +20,6 @@ typedef struct elem { // definisce il nodo lista
 	struct elem* next;
 } node;
 typedef node* candidati; // definisce il puntatore alla lista (per i metodi void)
-void addCandidato(candidati*, string, string); // aggiunge un candidato all'insieme
+void addcandidato(candidati*, string, string, string); // aggiunge un candidato all'insieme
 
 #endif /* defined(__Es201014__candidato__) */

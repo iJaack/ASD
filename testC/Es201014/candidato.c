@@ -10,7 +10,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void addCandidato(candidati* lista, string codice, string nome, string cognome) {
-	
+void addcandidato(candidati* lista, string codice, string nome, string cognome) {
+	candidati nc = (candidati)malloc(sizeof(node));
+	copia(nc->info.cod, codice);
+	copia(nc->info.nome, nome);
+	copia(nc->info.cognome, cognome);
+	nc->next = *lista;
+	*lista = nc;
 }
 //end
