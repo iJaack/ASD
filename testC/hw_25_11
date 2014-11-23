@@ -12,12 +12,10 @@ typedef elist* plist;
 /* inizio funzione */
 
 int compara_array_lista(int A[], int n, plist p){
-       /* Scrivi qui il codice che conta quanti elementi dell'array A lungo n siano
-       presenti anche nella lista semplicemente concatenata p di interi.
-       L'array A ha tutti elementi distinti, mentre la lista p potrebbe avere elementi
-       duplicati. Se un elemento di A appare duplicato in p, deve essere contato una sola volta.  
-       Se la lista e' vuota oppure n e' zero allora ritorna zero.  */
-  if(n=0 || p == NULL)
+       /* Conta quanti elementi dell'array A lungo n siano presenti anche nella lista semplicemente
+       concatenata p di interi. Se un elemento di A appare duplicato in p, deve essere contato una 
+       sola volta. Se la lista e' vuota oppure n e' zero allora ritorna zero.  */
+  if(n==0 || p == NULL)
   	return 0;
   int i, elemCount = 0;
   plist tempP;
