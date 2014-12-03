@@ -10,7 +10,7 @@ typedef struct tree_node *albero;
 
 /* scrivi qui eventuali funzioni di appoggio */
 int max(int n, int m) {
-if(n>m) return m;
+if(n>m) return n;
 else return m;
 }
 int height(albero t) {
