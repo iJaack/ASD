@@ -1,0 +1,45 @@
+#include <stdio.h>  /* ora puoi usare NULL */
+#include <stdlib.h>  /* ora puoi usare le funzioni di allocazione dinamica della memoria */
+
+struct tree_node {
+int info;
+struct tree_node *sx;
+struct tree_node *dx;
+};
+
+typedef struct tree_node *albero;
+
+int found_node(albero T, int c) {
+if (T) {
+if(T->info==c) return 1;
+else {
+if(min(c, T->info))
+return found_node(T->sx, c);
+else return found_node(T->dx, c);
+}}
+else return 0;
+}
+
+int insert (albero *T, int c) {
+int stato = 0;
+if(*T==NULL) {
+(*T) = (albero)malloc(sizeof(tree_node));
+(*T)->info=c;
+(*T)->sx=NULL;
+(*T)->dx=NULL;
+stato = 1;
+} else {
+if(min(c, (*T)->info)) insert(&(*T)->sx, c);
+else insert(&(*T)->dx, c);
+}
+return stato;
+}
+
+int albero_ricerca_nodo(albero* T, int v){
+int trovato;
+if(*T)
+if(found_node(*T, v)==1)
+trovato =1;
+else insert(T, v);
+return trovato;
+}
