@@ -1,0 +1,38 @@
+#include <stdio.h>  /* ora puoi usare NULL */
+
+struct tree_node {
+int info;
+struct tree_node *sx;
+struct tree_node *dx;
+};
+
+typedef struct tree_node *albero;
+
+/* scrivi qui eventuali funzioni di appoggio */
+int max(int n, int m) {
+if(n>m) return m;
+else return m;
+}
+int height(albero t) {
+if(t) return 1+max(height(t->sx), height(t->dx));
+else return -1;
+}
+int leaf_count(albero t) {
+if(t)
+if(t->sx==NULL && t->dx==NULL) return 1;
+else return leaf_count(t->sx) + leaf_count(t->dx);
+else return 0;
+}
+
+/* INIZIO FUNZIONE */
+
+int albero_altezza_foglie(albero T){
+
+int altezza_foglie;
+if(T==NULL) altezza_foglie = 0;
+else {
+if(height(T)==leaf_count(T)) altezza_foglie = 1;
+else altezza_foglie = 0;
+}
+return altezza_foglie;
+}
