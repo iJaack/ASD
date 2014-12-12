@@ -1,0 +1,19 @@
+#include <stdio.h>  /* ora puoi usare NULL */
+
+struct nodo_albero {
+int info;
+struct nodo_albero *sx;
+struct nodo_albero *dx;
+};
+
+typedef struct nodo_albero *albero;
+
+int albero_pieno(albero T){
+
+if(T) {
+if((albero_pieno(T->sx) && albero_pieno(T->dx)) || (!albero_pieno(T->sx) && !albero_pieno(T->dx)))
+return 1;
+else return 0;
+}
+else return 0;
+}
