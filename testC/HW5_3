@@ -1,0 +1,38 @@
+#include <stdio.h>  /* ora puoi usare NULL */
+
+struct nodo_albero {
+int info;
+struct nodo_albero *sx;
+struct nodo_albero *dx;
+};
+
+typedef struct nodo_albero *albero;
+
+int level(albero T, int l) {
+if(T)
+if(l==0) return 1;
+else return level(T->sx, l-1)+level(T->dx, l-1);
+else return 0;
+}
+int max(int a, int b) {
+if(a<b)
+return b;
+else return a;
+}
+
+int height(albero T) {
+if(T)
+return (1+max(height(T->dx), height(T->sx)));
+else return -1;
+}
+
+int larghezza_albero(albero T){
+int maximum=0;
+if(!T)
+maximum=0;
+int i;
+for(i=0; i<=height(T); i++) {
+maximum=max(level(T, i), maximum);
+}
+return maximum;
+}
